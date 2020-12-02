@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="UTF-8">
+            <title>Sign up</title>
+            <link rel="stylesheet" href="../CSS/style.css" type="text/css">
+      </head>
+      <body>
+            <form class="register">
+                  <div class="header">
+                        <h1>Sign up</h1>
+                  </div>
+
+                  <div class="nav">
+                        <ul class="contactus">
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">New Student</a></li>
+                              <li><a href="#">Contact Us</a></li>
+                        </ul>
+                  </div>
+                  <br>
+                  <br>
+                        <div class="content">
+                              <div>
+                                    <div class="Personal Information">
+                                          <fieldset>
+                                                <legend>
+                                                      Personal Information
+                                                </legend>
+                                                <div class="name">
+                                                      <label>Full Name :</label>
+                                                            <input class="personalboxes" type="text" placeholder="Enter Name" >
+                                                </div>
+
+                                                <div class="birth">
+                                                      <label>Birthdate :</label>
+                                                            <input class="personalboxes" type="date">
+                                                </div>
+
+                                                <div class="gender">
+                                                      <label>Gender :</label>
+                                                            <form class="genderBox">
+                                                                  <input type="radio" id="male" name="gender" value="male">
+                                                                  <label for="male">Male</label>
+                                                                  <input type="radio" id="female" name="gender" value="female">
+                                                                  <label for="female">Female</label>
+                                                            </form>
+                                                </div>
+
+                                          </fieldset>
+                                    </div>
+
+                                    <div class="Contact Information">
+                                          <fieldset>
+                                                <legend>
+                                                      Contact Information
+                                                </legend>
+
+                                                <div class="email">
+                                                      <label>E-mail :</label>
+                                                            <input class="personalboxes" type="text" id="email" placeholder="Enter Email">
+                                                </div>
+
+                                                <div class="phone">
+                                                      <label>Phone Number :</label>
+                                                            <input class="personalboxes" type="text" name="" id="phonenumber" placeholder="Enter Phone Number">
+                                                </div>
+
+                                                <div class="address">
+                                                      <label>Address :</label>
+                                                            <input class="addresspersonalboxes" type="text" name="" id="aaddress" placeholder="Enter Address">
+                                                </div>
+                                          </fieldset>
+                                    </div>
+
+                                    <div class="University Information">
+                                          <fieldset>
+                                                <legend>
+                                                      University Information
+                                                </legend>
+
+                                                <label >Faculty :</label>
+                                                      <select class="personalboxes" name="faculties" id="faculties">
+                                                            <option value="Oral & Dental Medicine">Oral & Dental Medicine</option>
+                                                            <option value="Pharmacology">Pharmacology</option>
+                                                            <option value="Physical Therapy">Physical Therapy</option>
+                                                            <option value="Computer Science">Computer Science</option>
+                                                            <option value="Engineering">Engineering</option>
+                                                            <option value="Political Science">Political Science</option>
+                                                      </select>
+                                          </fieldset>
+                                    </div>
+                                    <div>
+                                          <input id="submit" type="submit" value="Add">
+                                    </div>
+                              </div>
+                        </div>
+                        <hr>
+                  <div class="footer">
+                        <div>
+                              <p>&copy; Future University In Egypt - <a href="https://www.fue.edu.eg/contacts">Contact Us</a></p>
+                        </div>
+                  </div>
+            </form>
+      </body>
+</html>

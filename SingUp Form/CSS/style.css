@@ -1,0 +1,85 @@
+body
+{
+      font-family: ans-serif;
+}
+h1
+{
+      text-align: center;
+      font-size: 40px;
+      color: rgb(0, 138, 0);
+}
+ul
+{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(0, 0, 0);
+      border-radius: 2px;
+}
+li
+{
+      float: left;
+}
+li a 
+{
+      display: block;
+      color: rgb(0, 138, 0);
+      padding: 5px 15px;
+      margin: 15px;
+      text-decoration: none;
+      font-weight: bold;
+}
+fieldset
+{
+      padding: 15px;
+      border-radius: 5px;
+      margin: 15px 0px;
+      border: 2px solid;
+}
+legend
+{
+      color: rgb(0, 138, 0);
+      font-weight: bold;
+}
+.name, .birth, .gender
+{
+      margin-top: 15px;
+}
+.personalboxes
+{
+      float: right;
+      width: 50%;
+      margin-right: 20%;
+      border-radius: 5px;
+      padding: 3px;
+      text-align: center;
+}
+.addresspersonalboxes
+{
+      float: right;
+      width: 50%;
+      margin-right: 20%;
+      border-radius: 5px;
+      padding: 30px 3px;
+      text-align: center;
+}
+.email, .phone, .address
+{
+      margin-top: 15px;
+}
+input[type=button], input[type=submit]{
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-decoration: none;
+      cursor: pointer;
+      margin-left: 50%;
+      border-radius: 5px;
+}
+p
+{
+      font-weight: bolder;
+      font-style: italic;
+}
